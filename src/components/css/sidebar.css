@@ -1,0 +1,91 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background-color: #EAEAEA;
+  width: 90px;
+  overflow: hidden;
+  transition: .4s ease all;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  margin: 10px 0 0 10px;
+  text-align: center;  
+  transition: all 0.5s ease;
+}
+
+.logo img {
+  width: 45px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #a9aeaf;
+}
+
+.logo span {
+  padding: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  position: relative;
+  display: table;
+  width: 300px;
+  padding: 10px;
+  color: #274046;
+  font-size: 1.4rem; 
+  text-decoration: none; 
+}
+
+.sidebar__Icon {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+body.dark nav i{
+  color: #fff;
+}
+
+.sidebar__text {
+  position: relative;
+  top: 8px;
+  margin-left: 10px;
+}
+
+a:hover {
+  background: #a9aeaf;
+}
+
+.ld:hover {
+  background: #0077B5;
+  color: #fff;
+}
+
+.gh:hover {
+  color: #000;
+}
+
+nav:hover {
+  width: 280px;
+  transition: all 0.5s ease;
+}
+
+.linkedin {
+  position: absolute;
+  bottom: 0;
+}
+
+.github {
+  position: absolute;
+  bottom: 60px;
+}
