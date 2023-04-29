@@ -1,0 +1,25 @@
+.main__infoContainer {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.main__infoContainer img {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.infoContainer__Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.infoContainer__Text h2 {
+  margin-bottom: 10px;
+  font-size: 3.2rem;
+  font-weight: bold;
+}

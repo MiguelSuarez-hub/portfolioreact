@@ -22,7 +22,7 @@ header {
   justify-content: end;
 }
 
-.selectorContainer__Switch--theme {
+.selectorContainerSwitchTheme {
   position: relative;
   display: flex; 
   margin-right: 20px;   
@@ -33,7 +33,7 @@ header {
   outline: none;
 }
 
-.selectorContainer__Switch--theme::after {
+.selectorContainerSwitchTheme::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -48,11 +48,31 @@ header {
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.selectorContainer__Switch--theme i{
+.selectorContainerSwitchTheme i {
   width: 30px;
   height: 30px;
   line-height: 30px;
   display: block;
   background: none;
   color: #fff;
+}
+
+header.light .selectorContainerSwitchTheme {
+  background: #EAEAEA;
+  color: #000;
+}
+
+header.light .selectorContainerSwitchTheme i {
+  color: #000;
+}
+
+header.light .selectorContainerSwitchTheme::after {
+  right: 0;
+  left: unset;
+}
+
+header.dark {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

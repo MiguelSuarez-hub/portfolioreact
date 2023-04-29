@@ -1,1 +1,12 @@
+main {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: calc(100% - 90px);
+  height: calc(100% - 45px);
+}
 
+main.dark {
+  background: #414345;
+  color: #EAEAEA;
+}

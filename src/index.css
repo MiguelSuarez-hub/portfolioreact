@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Figtree', sans-serif;
 }
 
 html {
@@ -16,8 +17,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: #EAEAEA;
-  font-family: 'Figtree', sans-serif;
-  transition: .4s ease all;
+  font-family:.4s ease all;
 }
 
 /* @media (prefers-color-scheme: light) {

@@ -1,14 +1,22 @@
+import { React, useState } from 'react';
+
 import Header from './components/Header';
 import Sidebar from './components/sidebar';
+import MainInfo from './components/MainInfo';
 
 import './App.css';
 
 function App() {
+  const [theme, setTheme] = useState('light');
 
   return (
     <>
-      <Header />
-      <Sidebar />
+      <Header theme={theme} setTheme={setTheme}/>
+      <Sidebar theme={theme}/>
+      <main className={theme}>
+        <MainInfo/>
+      </main>
+      
     </>
   )
 }

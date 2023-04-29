@@ -1,12 +1,14 @@
 import React from 'react';
-import './css/sidebar.css'
 
-function Sidebar() {
+import '../css/sidebar.css';
+import Logo from '../assets/logo.png'
+
+function Sidebar({theme}) {
   return (
     <>
-      <nav classNameName="sidebar">
+      <nav className={`sidebar ${theme}`}>
         <ul>
-          <li><a className="logo" href=""><img src="./imagenes/logo.png" alt="logo" /><span className="sidebar__text">MS Development</span></a></li>
+          <li><a className="logo" href=""><img src={Logo} alt="logo" /><span className="sidebar__text">MS Development</span></a></li>
           <li><a href=""><i className="bx bx-home-smile bx-lg sidebar__Icon"></i><span className="sidebar__text">Home</span></a></li>
           <li><a href=""><i className="bx bxs-user-badge bx-lg sidebar__Icon"></i><span className="sidebar__text">About</span></a></li>
           <li><a href=""><i className="bx bxs-book bx-lg sidebar__Icon"></i><span className="sidebar__text">Projects</span></a></li>
