@@ -20,6 +20,34 @@
 
 .infoContainer__Text h2 {
   margin-bottom: 10px;
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: bold;
+}
+.infoContainer__Text p {
+  font-size: 2.2rem;
+}
+
+.main__cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  justify-content: flex-end;
+  box-shadow: 2px 2px 2px #3f3f3f;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+main.dark .cardContainer {
+  box-shadow: 2px 2px 2px #EAEAEA;
+  background: #494d52;
+  color: #EAEAEA;
 }
