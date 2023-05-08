@@ -1,13 +1,13 @@
 import React from 'react';
 
 import '../css/mainInfo.css';
-import Perfil from '../assets/perfil.jpg'
+import { perfil } from '../assets';
 
 const MainInfo = () => {
   return (
     <>
       <section className="main__infoContainer">
-        <img src={Perfil} alt="Perfil Image" />
+        <img src={perfil} alt="Perfil Image" />
         <div className="infoContainer__Text">
           <h2>Mechatronic engineer/FrontEnd Developer</h2>
           <p>I'm Miguel Suarez and Programming is my passion</p>
