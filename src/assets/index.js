@@ -1,4 +1,4 @@
-import perfil from './perfil.jpg';
+import perfil from './html.png';
 
 export {perfil};
 
