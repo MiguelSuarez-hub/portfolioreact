@@ -20,7 +20,7 @@ const MainInfo = () => {
         </div>
         <div className="cardContainer">
           <h2>Mechatronic engineer/FrontEnd Developer</h2>
-          <p>I'm Miguel Suarez and Programming is my passion</p>
+          <p>I'm Miguel Angel Suarez and Programming is my passion</p>
         </div>
         <div className="cardContainer">
           <h2>Mechatronic engineer/FrontEnd Developer</h2>
